@@ -24,7 +24,7 @@ while True:
         if list == []:
             print("List is empty")
             break
-    elif office == "Add":
+    elif office == "Add":        #Add value in list
         add = input("add value: ")
         list.append(add)
         print(list)
