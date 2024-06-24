@@ -1,3 +1,7 @@
+#list = []
+#tuple = ()
+#dictionary = {}
+
 #example 1
 
 list = ["apple", "banana", "strawberry", "mango", "melon"]  #mutable = can be change
