@@ -49,7 +49,7 @@ dictionary = {"message": "Hello World",
 print(dictionary["message"])
 print(dictionary["Multiple"][0])
 
-data = ["Aljieo", "O", "Tolibas"]
+data = [["Aljieo", "O", "Tolibas"]]
 final = []
 for d in data:
     label = {}
