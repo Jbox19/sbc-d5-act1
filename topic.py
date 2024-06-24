@@ -40,5 +40,24 @@ print(list1)
 list1.pop(0)
 print(list1)
 
+#example 4 
+
+dictionary = {"message": "Hello World", 
+     "java": "No Thanks",
+     "python": "Yes Please",
+     "Multiple": [1, 2, 3, 4, 5]}
+print(dictionary["message"])
+print(dictionary["Multiple"][0])
+
+data = ["Aljieo", "O", "Tolibas"]
+final = []
+for d in data:
+    label = {}
+    label["firstname"] = d[0]
+    label["initial"] = d[1]
+    label["lastname"] = d[2]
+    final.append(label)
+print(final)
+
 #stack = FILO (First In Last Out) or (Last in First Out)
 #queue = FIFO (First In First Out) or (Last in Last Out)
